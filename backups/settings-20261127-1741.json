@@ -1,0 +1,204 @@
+{
+ "format": "fw-settings-backup",
+ "version": 1,
+ "createdAt": "2026-11-27T17:42:02.431Z",
+ "areas": [
+  "replies",
+  "messages",
+  "ai",
+  "myMsgs",
+  "groupGuard"
+ ],
+ "counts": {
+  "users": 2,
+  "replies": 2,
+  "groups": 4,
+  "myMsgsProfiles": 1
+ },
+ "users": {
+  "1892027723": {
+   "messages": {
+    "msgSettings": {
+     "autoReact": false,
+     "reactEmoji": "❤️",
+     "reactOnlyPrivate": false,
+     "reactOnlyGroups": false,
+     "profilePhotoEnabled": false,
+     "awayMode": false,
+     "awayMessage": "مرحباً! أنا غير متاح حالياً. سأرد قريباً إن شاء الله 🙏",
+     "silentMode": false,
+     "forwardToTelegram": false,
+     "forwardGroupMessages": false,
+     "forwardPrivateMessages": true,
+     "forwardOnlyKeywords": [],
+     "viewOnceEnabled": true,
+     "viewOnceTarget": "all",
+     "welcomeEnabled": false,
+     "welcomeMessage": "أهلاً وسهلاً! 😊 كيف أقدر أساعدك؟",
+     "antiSpamEnabled": false,
+     "antiSpamThreshold": 5,
+     "spamBlockDuration": 60,
+     "smartDelayEnabled": false,
+     "smartDelayMin": 1,
+     "smartDelayMax": 4,
+     "smartNotifyEnabled": false,
+     "smartNotifyKeywords": [],
+     "ignoreList": [],
+     "wordFilter": [],
+     "wordFilterAction": "ignore",
+     "wordFilterReply": "",
+     "scheduledReplyEnabled": false,
+     "scheduledReplyDelay": 0,
+     "sentimentEnabled": false,
+     "trackStats": true
+    }
+   }
+  },
+  "7428421245": {
+   "replies": [
+    {
+     "trigger": "السلام عليكم",
+     "triggerType": "contains",
+     "caseSensitive": false,
+     "replyType": "button_quick",
+     "replyContent": "{\"text\":\"*وعليكم السلام ورحمة الله تعالى 🤖*\",\"entries\":[{\"label\":\"كيف حالك 🤖\",\"value\":\"https://chat.whatsapp.com/JERfEDvIf3R3QQ03jUMcbr?s=cl&p=a&iam=2\",\"type\":\"url\"}]}",
+     "target": "all",
+     "targetNumbers": [],
+     "scope": "both",
+     "folder": "",
+     "isActive": true,
+     "dailyLimit": 0,
+     "perUserLimit": 1,
+     "scheduleFrom": null,
+     "scheduleTo": null,
+     "langFilter": null,
+     "rotatingMessages": [],
+     "morphEdits": [],
+     "id": "e94c98e6-1973-4b57-8f20-d29046461000",
+     "createdAt": "2026-11-27T10:57:55.519Z"
+    },
+    {
+     "trigger": "مرحبا",
+     "triggerType": "contains",
+     "caseSensitive": false,
+     "replyType": "text",
+     "replyContent": "أهلاً {name} 👋\nنحن سعداء بوجودك. اكتب «القائمة» لرؤية الخدمات.",
+     "target": "all",
+     "targetNumbers": [],
+     "scope": "both",
+     "folder": "ترحيب",
+     "isActive": true,
+     "dailyLimit": 0,
+     "perUserLimit": 0,
+     "scheduleFrom": null,
+     "scheduleTo": null,
+     "langFilter": null,
+     "rotatingMessages": [],
+     "morphEdits": [],
+     "id": "39369aa5-561c-4d04-956e-18c67b21ef13",
+     "createdAt": "2026-11-27T16:06:20.733Z"
+    }
+   ],
+   "myMsgs": [
+    {
+     "slot": 0,
+     "settings": {
+      "profilePicCmd": "/mg",
+      "exportMembersCmd": "/gm",
+      "copyCmd": "/copy",
+      "imgCmd": "/img",
+      "removeBgCmd": "/قص",
+      "removeBgEnabled": true,
+      "vidCmd": "/vid",
+      "tiktokCmd": "/tiktok",
+      "songCmd": "/song",
+      "aiCmd": "/ai",
+      "delCmd": "/del",
+      "aiImgCmd": "/صورة",
+      "filmCmd": "/film",
+      "statusCopyCmd": "/حالة",
+      "statusAutoSave": false,
+      "profilePicEnabled": true,
+      "exportMembersEnabled": true,
+      "copyEnabled": true,
+      "imgEnabled": true,
+      "vidEnabled": true,
+      "songEnabled": true,
+      "aiEnabled": true,
+      "delEnabled": true,
+      "aiImgEnabled": true,
+      "filmEnabled": true,
+      "statusCopyEnabled": true,
+      "codEnabled": true,
+      "tagEnabled": false,
+      "tagCmd": "!tag",
+      "sttEnabled": true,
+      "sttCmd": "/نص",
+      "ttsEnabled": true,
+      "ttsCmd": "/صوت",
+      "locateCmd": "/locate",
+      "locateEnabled": false,
+      "linkVideoEnabled": true,
+      "linkVideoGroupJid": null,
+      "linkVideoCmd": "/linkvideo",
+      "statusAutoSaveCmd": "/statusas",
+      "reactCopyEnabled": false,
+      "reactCopyEmoji": "📌",
+      "reactCopyFrom": null,
+      "reactCopyTo": null,
+      "reactCopyViewOnce": false,
+      "reactCopyAllSenders": false,
+      "reactCopyDeleteOriginal": false,
+      "audioStickerEnabled": true
+     }
+    }
+   ],
+   "groupGuard": {
+    "120363432822413478@g.us": {
+     "enabled": true,
+     "linkGuard": true,
+     "wordGuard": true,
+     "stickerGuard": false,
+     "imageGuard": true,
+     "audioGuard": false,
+     "buttonGuard": true,
+     "reactionGuard": true,
+     "reactionEmojis": [
+      "🖕"
+     ],
+     "kickOnLimit": true,
+     "floodGuard": true,
+     "repeatGuard": false,
+     "autoReKick": true,
+     "dailyReport": true,
+     "welcome": {
+      "enabled": false,
+      "card": true
+     },
+     "goodbye": {
+      "enabled": false,
+      "card": true
+     },
+     "quiet": {
+      "enabled": false,
+      "from": "00:00",
+      "to": "07:00"
+     }
+    },
+    "120363414842912476@g.us": {
+     "enabled": true,
+     "linkGuard": true
+    },
+    "120363423732562339@g.us": {
+     "enabled": true,
+     "linkGuard": true
+    },
+    "120363413473030406@g.us": {
+     "enabled": true,
+     "linkGuard": true
+    }
+   }
+  }
+ },
+ "checksum": "097a718ea5436ff90ecd046cbd7c6888"
+}
